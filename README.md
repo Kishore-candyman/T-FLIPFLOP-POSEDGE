@@ -40,7 +40,7 @@ From the above characteristic table, we can directly write the next state equati
 **PROGRAM**
 
 ```
-module t_ff_ (t, clk, rst, q);
+module t_ff(t, clk, rst, q);
   input t, clk, rst;
   output reg q;
 
